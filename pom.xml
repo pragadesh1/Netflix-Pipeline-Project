@@ -10,7 +10,11 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-	</properties>	
+	</properties>
+	<properties>
+	<maven.compiler.source>1.6</mavencompiler.source>
+	<maven.compiler.target>1.6</mavencompiler.target>
+	</properties>
 	<dependencies>
 		<dependency>
 		    <groupId>com.oracle.bedrock</groupId>
